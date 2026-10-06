@@ -1,0 +1,41 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Herramientas y configuración local
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.env
+.env.*
+
+# Modelos y cachés descargados localmente
+.cache/
+hf_cache/
+transformers_cache/
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.temp
+*.log
